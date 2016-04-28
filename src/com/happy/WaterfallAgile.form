@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.happy.WaterfallAgile">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="289" y="111" width="507" height="521"/>
+    </constraints>
+    <properties>
+      <background color="-13440807"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="66738" class="javax.swing.JButton" binding="recommendButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Recommend"/>
+        </properties>
+      </component>
+      <component id="a38cd" class="javax.swing.JCheckBox" binding="CustomerCheckBox">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="393" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="If the customers will be requiring working model earlier in the process"/>
+        </properties>
+      </component>
+      <component id="71950" class="javax.swing.JCheckBox" binding="DeadlinesCheckBox">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="393" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Does the project have fixed deadlines"/>
+        </properties>
+      </component>
+      <component id="79ed2" class="javax.swing.JCheckBox" binding="ExperinceCheckBox">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="393" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="If the programmers have experience in analysis and testing"/>
+        </properties>
+      </component>
+      <component id="ceaf" class="javax.swing.JCheckBox" binding="LocationCheckBox">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="393" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="If the programmers are working in the same location or in many"/>
+        </properties>
+      </component>
+      <component id="d3ecb" class="javax.swing.JCheckBox" binding="StringentCheckBox">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="393" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="If they are stringent quality control requirements"/>
+        </properties>
+      </component>
+      <component id="993c7" class="javax.swing.JLabel" binding="RecommendLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12706328"/>
+          <foreground color="-1558693"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="1c5a2" class="javax.swing.JTextField" binding="AgileOrWaterfalltextField1">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6e3f5" class="javax.swing.JCheckBox" binding="ProgrammersCheckBox">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="393" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="How many programmers in the team"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor"/>
+  </inspectionSuppressions>
+</form>
